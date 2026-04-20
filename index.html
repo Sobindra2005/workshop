@@ -7,22 +7,169 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="header">
+        <h1 class="header-brand">Bostami</h1>
+        <button type="button" class="header-toggle" aria-label="Toggle theme">
+            <i class="fa-regular fa-moon"></i>
+        </button>
+    </div>
     <div id="container">
         <div id="leftSide">
+            <div class="left-card">
+                <img class="left-avatar"
+                    src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=700&q=80"
+                    alt="Bostami Hassan">
+                <div id="left-card-other">
+                    <h2 class="left-name">Bostami Hassan</h2>
+                    <p class="left-role">Ui/Ux Designer</p>
 
+                    <div class="left-socials" aria-label="Social media">
+                        <button type="button" class="left-social-btn" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </button>
+                        <button type="button" class="left-social-btn" aria-label="Twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </button>
+                        <button type="button" class="left-social-btn" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </button>
+                        <button type="button" class="left-social-btn" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </button>
+                    </div>
+
+                    <section class="left-contact-panel" aria-label="Contact information">
+                        <div class="left-contact-row">
+                            <div class="left-contact-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                            <div class="left-contact-text">
+                                <p class="left-contact-label">Phone</p>
+                                <p class="left-contact-value">+123 456 7890</p>
+                            </div>
+                        </div>
+
+                        <div class="left-contact-row">
+                            <div class="left-contact-icon"><i class="fa-regular fa-envelope"></i></div>
+                            <div class="left-contact-text">
+                                <p class="left-contact-label">Email</p>
+                                <p class="left-contact-value">example@mail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="left-contact-row">
+                            <div class="left-contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="left-contact-text">
+                                <p class="left-contact-label">Location</p>
+                                <p class="left-contact-value">Hong Kong China</p>
+                            </div>
+                        </div>
+
+                        <div class="left-contact-row no-border">
+                            <div class="left-contact-icon"><i class="fa-regular fa-calendar"></i></div>
+                            <div class="left-contact-text">
+                                <p class="left-contact-label">Birthday</p>
+                                <p class="left-contact-value">May 27, 1990</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <button type="button" class="left-download-btn">
+                        <i class="fa-solid fa-download"></i>
+                        Download Cv
+                    </button>
+                </div>
+            </div>
         </div>
 
-
         <div id="Middle">
+            <section class="about-section inactive-middle">
+                <header class="about-head">
+                    <h2 class="about-title">About</h2>
+                    <span class="about-line"></span>
+                </header>
 
+                <p class="about-text">I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web
+                    development and print media. I enjoy turning complex problems into simple, beautiful and intuitive
+                    designs.</p>
+
+                <p class="about-text">My aim is to bring across your message and identity in the most creative way. I
+                    created web design for many famous brand companies.</p>
+
+                <h3 class="about-subtitle">What I Do!</h3>
+
+                <div class="about-services">
+                    <div class="about-service service-pink">
+                        <i class="fa-solid fa-pen-ruler service-icon icon-violet"></i>
+                        <div class="service-content">
+                            <h4>Ui/Ux Design</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam euismod tincidunt
+                                volutpat.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-service service-blue">
+                        <i class="fa-solid fa-border-all service-icon icon-pink"></i>
+                        <div class="service-content">
+                            <h4>App Development</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam euismod tincidunt
+                                volutpat.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-service service-blue">
+                        <i class="fa-solid fa-camera service-icon icon-pink"></i>
+                        <div class="service-content">
+                            <h4>Photography</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam euismod tincidunt
+                                volutpat.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-service service-pink">
+                        <i class="fa-solid fa-code service-icon icon-blue"></i>
+                        <div class="service-content">
+                            <h4>Web Development</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam euismod tincidunt
+                                volutpat.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="resume-section active-middle">
+                <header class="about-head">
+                    <h2 class="about-title">Resume</h2>
+                    <span class="about-line"></span>
+                </header>
+            </section>
+            <section class="work-section inactive-middle">
+                <header class="about-head">
+                    <h2 class="about-title">Projects</h2>
+                    <span class="about-line"></span>
+                </header>
+            </section>
+
+            <section class="blog-section inactive-middle">
+                <header class="about-head">
+                    <h2 class="about-title">Blogs</h2>
+                    <span class="about-line"></span>
+                </header>
+            </section>
+
+            <section class="Contact-section inactive-middle">
+                <header class="about-head">
+                    <h2 class="about-title">Contact</h2>
+                    <span class="about-line"></span>
+                </header>
+            </section>
         </div>
 
         <div id="rightSide">
