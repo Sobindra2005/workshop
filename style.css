@@ -595,6 +595,125 @@ body {
     font-weight: 500;
 }
 
+.work-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.work-toolbar {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    gap: 34px;
+    margin-bottom: 28px;
+    margin-top: 30px;
+}
+
+.work-tab {
+    font-family:"Poppins";
+    border: none;
+    background: transparent;
+    color: #435d7b;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    padding: 4px 0;
+}
+
+.work-tab.active {
+    color: #2f7be4;
+}
+
+.work-gallery {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.work-column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.work-card {
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.work-pink {
+    background-color: #f8eef1;
+}
+
+.work-blue {
+    background-color: #eaf1f8;
+}
+
+.work-preview {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 96px;
+}
+
+.preview-orange {
+    background: linear-gradient(180deg, #ffd58d, #f7c97f);
+    color: #e98a2a;
+}
+
+.preview-cyan {
+    background: linear-gradient(180deg, #d9c1ff, #e3b8ff);
+    color: #45d63f;
+}
+
+.preview-pink {
+    background: linear-gradient(180deg, #7dd9ff, #68d5ff);
+    color: #1f4ca8;
+}
+
+.preview-violet {
+    background: linear-gradient(180deg, #caa6ff, #d7b0ff);
+    color: #2c3e9b;
+}
+
+.preview-blue {
+    background: linear-gradient(180deg, #4ca4ff, #3194ff);
+    color: #ffffff;
+}
+
+.preview-yellow {
+    background: linear-gradient(180deg, #ffd95f, #f9cc3c);
+    color: #ffffff;
+}
+
+.work-category {
+    font-size: 13px;
+    color: #5a6d84;
+}
+
+.work-card h4 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.work-card:hover .work-preview {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
 /* .active-middle{
    
 } */
