@@ -91,7 +91,7 @@
         </div>
 
         <div id="Middle">
-            <section class="about-section inactive-middle">
+            <section class="about-section active-middle">
                 <header class="about-head">
                     <h2 class="about-title">About</h2>
                     <span class="about-line"></span>
@@ -382,7 +382,7 @@
                     </div>
                 </div>
             </section>
-            <section class="Contact-section active-middle">
+            <section class="Contact-section inactive-middle">
                 <header class="about-head">
                     <h2 class="about-title">Contact</h2>
                     <span class="about-line"></span>
@@ -416,27 +416,27 @@
 
         <div id="rightSide">
             <nav class="side-menu" aria-label="Section navigation">
-                <button type="button" class="menu-item active">
+                <button type="button" onclick="setActiveSection('about')" id="menu-item-about" class="menu-item active ">
                     <i class="fa-solid fa-address-card rightIcon"></i> <span>About</span>
                 </button>
 
-                <button type="button" class="menu-item">
+                <button type="button" onclick="setActiveSection('resume')" id="menu-item-resume" class="menu-item ">
                     <i class="fa-solid fa-file rightIcon"></i>
                     <span>Resume</span>
                 </button>
 
-                <button type="button" class="menu-item">
-                    <i class="fa-solid fa-briefcase rightIcon" style="color: rgb(121, 139, 178);"></i>
+                <button type="button" onclick="setActiveSection('works')" id="menu-item-works" class="menu-item ">
+                    <i class="fa-solid fa-briefcase rightIcon" ></i>
                     <span>Works</span>
                 </button>
 
-                <button type="button" class="menu-item">
-                    <i class="fa-solid fa-newspaper rightIcon" style="color: rgb(121, 139, 178);"></i>
+                <button type="button" onclick="setActiveSection('blogs')" id="menu-item-blogs" class="menu-item ">
+                    <i class="fa-solid fa-newspaper rightIcon" ></i>
                     <span>Blogs</span>
                 </button>
 
-                <button type="button" class="menu-item">
-                    <i class="fa-solid fa-address-book rightIcon" style="color: rgb(121, 139, 178);"></i>
+                <button type="button" onclick="setActiveSection('contact')" id="menu-item-contact" class="menu-item">
+                    <i class="fa-solid fa-address-book rightIcon" ></i>
                     <span>Contact</span>
                 </button>
             </nav>
