@@ -420,10 +420,93 @@ body {
     color: #ffffff;
 }
 
-.active-middle{
-
-}
+/* .active-middle{
+   
+} */
 
 .inactive-middle{
    display:none;
+}
+
+.resume-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.resume-columns {
+    margin-top: 34px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 38px;
+}
+
+.resume-column {
+    width: calc(50% - 19px);
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-column-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resume-column-head i {
+    font-size: 30px;
+    color: #2f7be4;
+}
+
+.resume-column-head h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #0f172a;
+    line-height: 1;
+}
+
+.resume-cards {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.resume-card {
+    min-height: 130px;
+    border-radius: 14px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.card-pink {
+    background-color: #f8eef1;
+}
+
+.card-blue {
+    background-color: #eaf1f8;
+}
+
+.resume-year {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #425972;
+}
+
+.resume-card h4 {
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 500;
+    color: #0f213b;
+}
+
+.resume-company {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #2f4e72;
 }
