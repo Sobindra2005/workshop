@@ -420,7 +420,7 @@ body {
     color: #ffffff;
 }
 
-
+/* resume section upward styling */
 .resume-section {
     width: 100%;
     display: flex;
@@ -504,6 +504,7 @@ body {
     color: #2f4e72;
 }
 
+/* //resume skills and knowledge section styling */
 .resume-skills-knowledge {
     width: 100%;
     margin-top: 100px;
@@ -575,6 +576,7 @@ body {
     background-color: #b458e6;
 }
 
+/* resume knowledge section styling  */
 .knowledge-tags {
     margin-top: 28px;
     display: flex;
@@ -595,6 +597,7 @@ body {
     font-weight: 500;
 }
 
+/* portfolio section styling */
 .work-section {
     width: 100%;
     display: flex;
@@ -701,9 +704,74 @@ body {
     transition: transform 0.2s ease;
 }
 
-/* .active-middle{
-   
-} */
+
+
+/* blog section styling */
+.blog-section {
+    width: 100%;
+}
+
+.blog-grid {
+    width: 100%;
+    margin-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.blog-card {
+    width: 48%;
+    border-radius: 14px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blog-pink {
+    background-color: #f8eef1;
+}
+
+.blog-blue {
+    background-color: #eaf1f8;
+}
+
+.blog-image-wrap {
+    width: 100%;
+    height: 306px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.blog-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.blog-meta {
+    font-size: 13px;
+    color: #66788f;
+    font-weight: 500;
+}
+
+.blog-card h4 {
+    font-size: 18px;
+    line-height: 1.35;
+    color: #273548;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.active-middle{
+   display:block;
+}
 
 .inactive-middle{
    display:none;
