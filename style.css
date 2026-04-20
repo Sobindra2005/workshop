@@ -641,6 +641,18 @@ body {
     gap: 24px;
 }
 
+.work-rectangle .work-preview {
+    height: 180px;
+}
+
+.work-square .work-preview {
+    height: 300px;
+}
+
+.work-tall .work-preview {
+    height: 300px;
+}
+
 .work-card {
     border-radius: 16px;
     padding: 18px;
@@ -661,40 +673,15 @@ body {
     width: 100%;
     height: 250px;
     border-radius: 12px;
+    overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 96px;
 }
 
-.preview-orange {
-    background: linear-gradient(180deg, #ffd58d, #f7c97f);
-    color: #e98a2a;
-}
-
-.preview-cyan {
-    background: linear-gradient(180deg, #d9c1ff, #e3b8ff);
-    color: #45d63f;
-}
-
-.preview-pink {
-    background: linear-gradient(180deg, #7dd9ff, #68d5ff);
-    color: #1f4ca8;
-}
-
-.preview-violet {
-    background: linear-gradient(180deg, #caa6ff, #d7b0ff);
-    color: #2c3e9b;
-}
-
-.preview-blue {
-    background: linear-gradient(180deg, #4ca4ff, #3194ff);
-    color: #ffffff;
-}
-
-.preview-yellow {
-    background: linear-gradient(180deg, #ffd95f, #f9cc3c);
-    color: #ffffff;
+.work-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .work-category {
