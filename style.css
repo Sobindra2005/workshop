@@ -101,7 +101,7 @@ body {
     width: 240px;
     height: 240px;
     border-radius: 22px;
-    object-fit:cover;
+    object-fit: cover;
     position: absolute;
     top: -110px;
 }
@@ -167,6 +167,13 @@ body {
 
 .left-social-btn:nth-child(4) {
     color: #1b4f9c;
+}
+
+/* at last  */
+.left-social-btn:hover {
+    background-color: rgb(86, 99, 207);
+    color: white;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .left-contact-panel {
@@ -242,6 +249,13 @@ body {
     cursor: pointer;
 }
 
+.left-download-btn:hover {
+    background-color: #e6ebf3;
+    border: 1px solid rgb(70, 69, 69);
+    color: black;
+    transition: all 0.2s ease;
+}
+
 /* middle side styling */
 #Middle {
     width: 850px;
@@ -305,7 +319,7 @@ body {
 }
 
 .about-service {
-    width:48%;
+    width: 48%;
     min-height: 176px;
     border-radius: 14px;
     padding: 20px;
@@ -400,7 +414,15 @@ body {
     gap: 12px;
 
     border: none;
+    cursor: pointer;
 
+}
+
+/* at last */
+.menu-item:hover {
+    background-color: #2f7be4;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .rightIcon {
@@ -608,14 +630,14 @@ body {
 .work-toolbar {
     width: 100%;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     gap: 34px;
     margin-bottom: 28px;
     margin-top: 30px;
 }
 
 .work-tab {
-    font-family:"Poppins";
+    font-family: "Poppins";
     border: none;
     background: transparent;
     color: #435d7b;
@@ -842,10 +864,10 @@ body {
 }
 
 
-.active-middle{
-   display:block;
+.active-middle {
+    display: block;
 }
 
-.inactive-middle{
-   display:none;
+.inactive-middle {
+    display: none;
 }
