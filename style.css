@@ -863,6 +863,17 @@ body {
     cursor: pointer;
 }
 
+.contact-submit:hover {
+    background-color: #49617e;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-submit:active {
+    background-color: #49617eb0;
+    transition: background-color 0.3s ease;
+}
+
 
 .active-middle {
     display: block;
